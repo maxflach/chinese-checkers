@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p app/src/components app/src/pages app/src/hooks app/src/store app/src/lib)",
+      "Bash(mkdir -p functions/src/lib)",
+      "Bash(mkdir -p .github/workflows)",
+      "Bash(mkdir -p .claude/agents .claude/skills/newfeature)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
