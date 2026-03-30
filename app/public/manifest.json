@@ -1,0 +1,16 @@
+{
+  "name": "Chinese Checkers",
+  "short_name": "Checkers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#5D4037",
+  "theme_color": "#5D4037",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

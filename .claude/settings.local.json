@@ -5,7 +5,23 @@
       "Bash(mkdir -p functions/src/lib)",
       "Bash(mkdir -p .github/workflows)",
       "Bash(mkdir -p .claude/agents .claude/skills/newfeature)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(gh repo:*)",
+      "Bash(git push:*)",
+      "Bash(push-status done:*)",
+      "Bash(git fetch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const f = require\\(''firebase-functions''\\); console.log\\(Object.keys\\(f.auth || {}\\)\\)\")",
+      "Bash(node -e \"const f = require\\(''firebase-functions/v2/identity''\\); console.log\\(Object.keys\\(f\\)\\)\")",
+      "Bash(node -e \"const f = require\\(''firebase-functions/v1''\\); console.log\\(typeof f.auth, Object.keys\\(f.auth || {}\\)\\)\")",
+      "Bash(npx tsx:*)",
+      "Bash(npx vite:*)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(node:*)",
+      "Bash(git add:*)"
     ]
   }
 }
